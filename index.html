@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container fullscreen">
+        <div class="row align-items-center my-5">
+          <div class="col-md-6 text-left">
+            <h6 class="text-danger">AWARD WINNING</h6>
+            <h1 class="font-weight-bold">DIGITAL MARKETING AGENCY</h1>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#contactModal">CONTACT US</button>
+          </div>
+          <div class="col-md-6 text-center">
+            <img style="width: 60%; height: 60%;" src="images/lady-working.png" alt="Person working" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Talk to us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="contactForm" action="https://getform.io/f/your-endpoint-id" method="POST">
+            <div class="form-group">
+              <label for="workEmail">Work email*</label>
+              <input type="email" class="form-control" id="workEmail" name="workEmail" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="firstName">First name*</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastName">Last name*</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" required>
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="termsCheck" name="termsCheck" required>
+              <label class="form-check-label" for="termsCheck">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Contact Us</button
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What We Do Section -->
+  <div class=" mt-5 choose">
+    
+  <div class="card-group">
+    <div class="card">
+      
+        <h2>WHAT WE DO</h2>
+        <h1><b>SERVICES PROVIDED</b></h1>
+        <h1><b>FOR YOU</b></h1>
+    </div>
+  <div class="card">
+    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+
+    </div>
+  </div>
+    <div id="servicesCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+        <ol class="carousel-indicators">
+          <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#servicesCarousel" data-slide-to="1"></li>
+          <li data-target="#servicesCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 1">
+                <div class="overlay">
+                 
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car2.png" class="d-block w-100" alt="Service 1">
+                <div class="overlay">
+                 
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car3.png" class="d-block w-100" alt="Service 2">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 3">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 4">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car2.png" class="d-block w-100" alt="Service 5">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car3.png" class="d-block w-100" alt="Service 6">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 4">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 4">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car2.png" class="d-block w-100" alt="Service 5">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car3.png" class="d-block w-100" alt="Service 6">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item">
+                <img src="images/car1.png" class="d-block w-100" alt="Service 4">
+                <div class="overlay">
+                  <img src="images/icon.png" alt="icon">
+                    <div class="text">
+                    <h5>WEB DEVELOPMENT</h5>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Why choose us -->
+  <section class="choose">
+    <h2>WHY CHOOSE US</h2>
+    <h1><b>WHY WE ARE BEST</b></h1>
+
+    <div class="cards">
+        <div class="choose-card">
+            <img class="card-img-top" src="images/bullseye.png" alt="Card image cap">
+            <h4><b>Clarified Vision and & Target</b></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="choose-card">
+            <img class="card-img-top" src="images/meter.png" alt="Card image cap">
+            <h4><b>High Performance</b></h4>            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="choose-card">
+            <img class="card-img-top" src="images/protect.png" alt="Card image cap">
+            <h4><b>Maintain Security</b></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="choose-card">
+            <img class="card-img-top" src="images/random.png" alt="Card image cap">
+            <h4><b>Better Strategy & Quality</b></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitr, sed diam nonumy.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Our Project section -->
+<section class="our-project">
+    <h2>OUR PROJECT</h2>
+    <h1><b>WHY WE ARE BEST</b></h1>
+
+    <div class="project-content">
+        <div class="project-image">
+            <img id="project-img" src="images/proj1.png" alt="Project Image">
+        </div>
+        <div class="project-info">
+            <div class="info" data-img="images/car1.png"><h4><b>Genderless Kei - Japan's Hot</b></h4><p>Set to launnch on the manufacturer's <br> new A330neo aircraft in 2017, it's <br> offering lots of</p></div>
+            <div class="info" data-img="images/proj1.png"><h4><b>Best Strategy & Quality</b></h4><p>Set to launnch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p></div>
+            <div class="info" data-img="images/car3.png"><h4><b>Genderless Kei - Japan's Hot</b></h4><p>Set to launnch on the manufacturer's <br> new A330neo aircraft in 2017, it's <br> offering lots of</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="experts-growths">
+    <h2>EXPERTS GROWTHS</h2>
+    <h1><b>OUR COMPANY GROWTH</b></h1>
+
+    <div class="cards">
+        <div class="card">
+            <span style="padding-bottom: 60px; color: #F60058;"  class="fa fa-heart fa-2xl" aria-hidden="true"></span>
+            <h3><b>199 +</b></h3>
+            <p>Staticfied Customers</p>
+        </div>
+        <div class="card">
+            <i style="padding-bottom: 60px; color: #F60058;" class="fa-solid fa-clock fa-2xl"></i>
+            <h3><b>1591 +</b></h3>
+            <p>Days Of Operation</p>
+        </div>
+        <div class="card">
+            <i style="padding-bottom: 60px; color: #F60058;" class="fa-solid fa-circle-check fa-2xl"></i>
+            <h3><b>283 +</b></h3>
+            <p>Complete Project</p>
+        </div>
+        <div class="card">
+            <i  style="padding-bottom: 60px; color: #F60058;" class="fa fa-trophy fa-2xl" aria-hidden="true"></i>
+            <h3><b>75 +</b></h3>
+            <p>Win Awards</p>
+        </div>
+    </div>
+</section>
+
+<div class="feedback">
+    <h2>CLIENT'S FEEDBACK</h2>
+    <h1><b>PEOPLE SAY'S ABOUT US !</b></h1>
+<div class="cards">
+    <div class=" feed-info">
+    <P>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Section Bonorum et Malorum original.</P>
+    <P class="rev-name"><b>JANNAT TUMA</b><span style="font-weight: 100; color: #a09b9b;"> - COO, AMERIMAR ENTERPRISES, INC.</span></P>
+    </div>
+</div>
+</div>
+
+ <!-- Footer Section -->
+ <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <img src="images/Group 500@2x.png" alt="footerpink">
+        </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
